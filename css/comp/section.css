@@ -1,0 +1,181 @@
+/*#mission{
+	font-family: "Parisienne";
+	font-size:25px;
+	color: #D4CAB8;
+	float: right;
+	text-align:justify;
+	margin-top: 20px;
+}*/
+#pages {
+	position: relative;
+	z-index: 10;
+}
+#pages ul{
+	list-style-type: none;
+	padding-top: 50px;
+}
+#pages li{
+	display: inline-block;
+}
+#pages li img{
+width:304px;
+height:228px;
+}
+#tarts{
+	background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5%;
+    opacity: 0.7;
+    max-width:575px;
+    float: right;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+#tarts h2{
+	font-family: "Parisienne";
+	font-size: 30px;
+	color: #101028;
+}
+#tarts p{
+	font-family: "Parisienne";
+	font-size:30px;
+	color: #101028;
+	padding: 0 10px;
+}
+.about {
+	background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5%;
+    opacity: 0.7;
+    margin: 0 30px;
+    max-width: 575px;
+    float: left;
+}
+.about h2{
+	font-family: "Parisienne";
+	font-size: 35px;
+	/*color: #D4CAB8;*/
+	/*color: #1F1F4C;*/
+	color: #101028;
+	padding-left:10px;
+	
+}
+.about p{
+	font-family: "Parisienne";
+	font-size: 30px;
+	/*color: #D4CAB8;*/
+	color: #101028;
+	padding: 0 10px;
+	
+}
+#contact-form{
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	border-radius: 5%;
+	opacity: 0.9;
+	max-width: 575px;
+	margin-right: 225px;
+	padding-left: 10px;
+  	width:100%;
+  	height:auto;
+  	position:relative;
+  	float: right;
+  	top:0;
+  	left:0;
+  	-webkit-transition: opacity 1.0s; /* Safari */
+ 	transition: opacity 1.0s;
+  	overflow-y:scroll;
+}
+#contact-form .wrapper{
+	width: 50%;
+	height: 50%;
+}
+#slider{
+	position:relative;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+  	border-radius: 4px;
+  	padding-left: 5px;
+}
+#slider ul{
+	list-style: none;
+	position: relative;
+	margin: 0;
+  	padding: 0;
+  	height: 200px;
+  	list-style: none;
+
+}
+#slider li{
+	position: relative;
+  	display: block;
+  	float: left;
+  	margin: 0;
+  	padding: 0;
+  	width: 600px;
+  	height: 400px;
+}
+#slider li img{
+	width:500px;
+	height:350px;
+}
+#ourcakes{
+	background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5%;
+    opacity: 0.7;
+    max-width:575px;
+    
+
+}
+#ourcakes h2{
+	font-family: "Parisienne";
+	font-size: 30px;
+	color: #101028;
+	padding-left: 10px;
+	
+}
+#ourcakes p {
+	font-family: "Parisienne";
+	font-size: 30px;
+	color: #101028;
+	padding: 0 10px;
+
+}
+#cupcakes{
+	background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5%;
+    opacity: 0.7;
+    max-width: 775px;
+    margin: 0 auto;
+			
+}
+#cupcakes h2 {
+	font-family: "Parisienne";
+	font-size: 30px;
+	color: #101028;
+	padding-left: 10px;
+	
+
+}
+#cupcakes p { 
+	font-family: "Parisienne";
+	font-size: 30px;
+	/*color: #D4CAB8;*/
+	color: #101028;
+	padding: 0 10px;
+
+}
+
+.clearfix { clear: both; 
+}
+
+footer { 
+	text-align: center; 
+	color: #FFFFFF;
+
+}
+
+
+

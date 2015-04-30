@@ -1,0 +1,116 @@
+/*#background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('../../images/home.jpg');
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}*/
+
+#homepage{
+	background-image: url('../../images/home.jpg');
+	background-size: cover;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	margin-left:-10px;
+	z-index: 0;
+	-webkit-filter: blur(5px);
+  	-moz-filter: blur(10px);
+ 	 -o-filter: blur(10px);
+  	-ms-filter: blur(10px);
+  	filter: blur(10px);
+
+}
+
+#aboutus {
+	/*background-color: #E0E0FF;*/
+	/*background-image: url('../../images/AboutUs.jpg');*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('../../images/AboutUs.jpg') no-repeat center;
+  	-webkit-background-size: cover;
+  
+}
+
+
+#pie{
+	/*background-image: url('../../images/piess.jpg');*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('../../images/piess.jpg') no-repeat center;
+  	-webkit-background-size: cover;
+	
+}
+
+#cakes {
+	/*background-image: url('../../images/cakes.jpg');*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('../../images/cakes.jpg') no-repeat center;
+  	-webkit-background-size: cover;
+}
+
+#cupcake {
+	/*background-image: url('../../images/cupcakess.jpg');*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url('../../images/cupcakes.jpg') no-repeat center;
+  	-webkit-background-size: cover;
+	
+	
+}
+
+#bar{
+	background-image: url('../../images/macaroons.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#special {
+	background-image: url('../../images/specialoccasions.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#contact {
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url('../../images/contact2.jpg') no-repeat fixed;
+  	-webkit-background-size: cover;
+  	/*background-image: url('../../images/contactus.jpg');*/
+  	/*background-repeat: no-repeat;*/
+  	/*background-size: auto;*/
+  	/*background-position: center;*/
+  	
+
+}
+
+p{
+	font-family: "Parisienne";
+	font-size:25px;
+	color: #D4CAB8;
+	position: relative;
+	text-align:justify;
+/*	margin-top: 160px;*/
+	opacity: 2;
+}
+/*.brick {
+	width: 100px;
+	height: 38px;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	z-index: 1;
+}*/

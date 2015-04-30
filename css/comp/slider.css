@@ -1,0 +1,32 @@
+.wrapper {
+	width:2200px;
+	position: relative;
+	left: 0px;
+	float: right;
+}
+.content{
+	float: left;
+	width: 550px;
+	height: 350px;
+	white-space: normal;
+	background-repeat: no-repeat;
+}
+#pageOne{
+	background-image: url('../../images/cookies/cookie.jpg');
+
+}
+#pageTwo{
+	background-image: url('../../images/cookies/cookies1.jpg');
+}
+#pageThree{
+	background-image: url('../../images/cookies/cookies2.jpg');
+}
+#pageFour{
+	background-image: url('../../images/cookies/cookies3.jpg');
+}
+#pageFive{
+	background-image: url('../../images/cookies/bars.jpg');
+}
+#pageSix{
+	background-image: ulr('../../images/cookies/macaroons.jpg');
+}
